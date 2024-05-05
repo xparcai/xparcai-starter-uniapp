@@ -1,0 +1,63 @@
+{
+  "Print Vue3 Route SFC": {
+    "scope": "vue",
+    "prefix": "vr3",
+    "body": [
+      "<route lang=\"json5\" type=\"page\">",
+      "{",
+      "  layout: '$1',",
+      "  style: {",
+      "    navigationBarTitleText: '$2',",
+      "  },",
+      "}",
+      "</route>\n",
+      "<script lang=\"ts\" setup>",
+      "",
+      "</script>\n",
+      "<template>",
+      "  <view class=\"\">$3</view>",
+      "</template>\n",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>\n",
+    ],
+  },
+  "Print Vue3 SFC": {
+    "scope": "vue",
+    "prefix": "v3",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "",
+      "</script>\n",
+      "<template>",
+      "  <view>$1</view>",
+      "</template>\n",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>\n",
+    ],
+  },
+  "Print Style": {
+    "scope": "vue",
+    "prefix": "st",
+    "body": ["<style lang=\"scss\" scoped>", "//", "</style>\n"],
+  },
+  "Print Script": {
+    "scope": "vue",
+    "prefix": "sc",
+    "body": ["<script lang=\"ts\" setup>", "//$3", "</script>\n"],
+  },
+  "Print Template": {
+    "scope": "vue",
+    "prefix": "te",
+    "body": ["<template>", "  <view class=\"\">$1</view>", "</template>\n"],
+  },
+  "Print View Tag": {
+    "prefix": "tvw",
+    "body": "<view>$1</view>",
+  },
+  "Print Image Tag": {
+    "prefix": "timg",
+    "body": "<image :src=\"getImageUrl('$1')\"></image>",
+  },
+}

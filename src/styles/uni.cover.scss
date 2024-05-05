@@ -1,0 +1,30 @@
+uni-image,
+image,
+video {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+uni-data-select {
+  display: inline-block !important;
+
+  .uni-select {
+    border: none !important;
+    height: auto !important;
+    padding: 0 !important;
+
+    .uni-select__input-box {
+      height: 48rpx !important;
+    }
+
+    .uni-select__input-text,
+    .uni-select__input-placeholder {
+      color: #232323 !important;
+    }
+  }
+
+  .uni-popper__arrow_bottom {
+    right: 10% !important;
+    left: auto !important;
+  }
+}
