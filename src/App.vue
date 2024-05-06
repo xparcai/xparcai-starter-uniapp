@@ -22,7 +22,6 @@ onShow(() => {
   // 确保获取的系统信息是最新且最正确的
   nextTick(() => {
     const systemInfo = uni.getSystemInfoSync()
-    console.log('系统信息 => ', systemInfo)
     systemStore.setSystemInfo(systemInfo)
   })
 })
